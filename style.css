@@ -1,0 +1,102 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: white;
+    font-family: basic;
+}
+
+body{
+    background-color: black;
+}
+.d-flex{
+    display: flex;
+}
+.justify-arround{
+    justify-content: space-around;
+}
+.logoimg{
+    width: 30%;
+}
+.logo{
+    width: 30%;
+
+}
+.item-center{
+    align-items: center;
+
+}
+.banner{
+    width: 100%;
+}
+.text-none{
+    text-decoration: none;
+    color: white;
+    font-size: 1.9rem;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.gap-5{
+    gap: 35px;
+}
+.radius{
+    border-radius: 25px;
+}
+.border{
+    border: 1px white solid;
+}
+.red-border{
+    border: 2px red solid;
+}
+.p-10{
+    padding: 15px;
+}
+.order{
+    background-color: red;
+}
+@font-face {
+    font-family: basic;
+    src: url(./assets/Apercu\ Light.otf);
+}
+
+.menu{
+    margin-left: -60px;
+    margin-right: 130px;
+}
+.top-discription{
+    text-align: center;
+    font-size: 3.5rem;
+    
+}
+@font-face {
+    font-family: futurak;
+    src: url(./fonts/futurak.ttf);
+}
+.font-futurak{
+    font-family: futurak;
+
+}
+.color-gray{
+    color: rgb(223, 212, 212);
+    font-size: 2rem;
+    margin-top: -40px;
+}
+.card-img{
+    width: 250px;
+    height: 120px;
+    background-color: white;
+
+}
+
+.justify-center{
+    justify-content:center ;
+}
+.order-button{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 50px;
+}
+.cards{
+    margin-top: 50px;
+}
